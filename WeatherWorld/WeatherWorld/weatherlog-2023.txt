@@ -1,0 +1,283 @@
+2023-01-03 14:44:08.930 -08:00 [INF] Successful ...  {
+    "@context": [
+        "https://geojson.org/geojson-ld/geojson-context.jsonld",
+        {
+            "@version": "1.1",
+            "wx": "https://api.weather.gov/ontology#",
+            "s": "https://schema.org/",
+            "geo": "http://www.opengis.net/ont/geosparql#",
+            "unit": "http://codes.wmo.int/common/unit/",
+            "@vocab": "https://api.weather.gov/ontology#",
+            "geometry": {
+                "@id": "s:GeoCoordinates",
+                "@type": "geo:wktLiteral"
+            },
+            "city": "s:addressLocality",
+            "state": "s:addressRegion",
+            "distance": {
+                "@id": "s:Distance",
+                "@type": "s:QuantitativeValue"
+            },
+            "bearing": {
+                "@type": "s:QuantitativeValue"
+            },
+            "value": {
+                "@id": "s:value"
+            },
+            "unitCode": {
+                "@id": "s:unitCode",
+                "@type": "@id"
+            },
+            "forecastOffice": {
+                "@type": "@id"
+            },
+            "forecastGridData": {
+                "@type": "@id"
+            },
+            "publicZone": {
+                "@type": "@id"
+            },
+            "county": {
+                "@type": "@id"
+            }
+        }
+    ],
+    "id": "https://api.weather.gov/points/34.0522,-118.2437",
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -118.2437,
+            34.052199999999999
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/points/34.0522,-118.2437",
+        "@type": "wx:Point",
+        "cwa": "LOX",
+        "forecastOffice": "https://api.weather.gov/offices/LOX",
+        "gridId": "LOX",
+        "gridX": 154,
+        "gridY": 44,
+        "forecast": "https://api.weather.gov/gridpoints/LOX/154,44/forecast",
+        "forecastHourly": "https://api.weather.gov/gridpoints/LOX/154,44/forecast/hourly",
+        "forecastGridData": "https://api.weather.gov/gridpoints/LOX/154,44",
+        "observationStations": "https://api.weather.gov/gridpoints/LOX/154,44/stations",
+        "relativeLocation": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.210869,
+                    34.001123
+                ]
+            },
+            "properties": {
+                "city": "Vernon",
+                "state": "CA",
+                "distance": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 6435.1328292857997
+                },
+                "bearing": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 331
+                }
+            }
+        },
+        "forecastZone": "https://api.weather.gov/zones/forecast/CAZ365",
+        "county": "https://api.weather.gov/zones/county/CAC037",
+        "fireWeatherZone": "https://api.weather.gov/zones/fire/CAZ365",
+        "timeZone": "America/Los_Angeles",
+        "radarStation": "KSOX"
+    }
+}
+2023-01-18 14:19:04.350 -08:00 [INF] Successful ...  {
+    "@context": [
+        "https://geojson.org/geojson-ld/geojson-context.jsonld",
+        {
+            "@version": "1.1",
+            "wx": "https://api.weather.gov/ontology#",
+            "s": "https://schema.org/",
+            "geo": "http://www.opengis.net/ont/geosparql#",
+            "unit": "http://codes.wmo.int/common/unit/",
+            "@vocab": "https://api.weather.gov/ontology#",
+            "geometry": {
+                "@id": "s:GeoCoordinates",
+                "@type": "geo:wktLiteral"
+            },
+            "city": "s:addressLocality",
+            "state": "s:addressRegion",
+            "distance": {
+                "@id": "s:Distance",
+                "@type": "s:QuantitativeValue"
+            },
+            "bearing": {
+                "@type": "s:QuantitativeValue"
+            },
+            "value": {
+                "@id": "s:value"
+            },
+            "unitCode": {
+                "@id": "s:unitCode",
+                "@type": "@id"
+            },
+            "forecastOffice": {
+                "@type": "@id"
+            },
+            "forecastGridData": {
+                "@type": "@id"
+            },
+            "publicZone": {
+                "@type": "@id"
+            },
+            "county": {
+                "@type": "@id"
+            }
+        }
+    ],
+    "id": "https://api.weather.gov/points/34.0522,-118.2437",
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -118.2437,
+            34.052199999999999
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/points/34.0522,-118.2437",
+        "@type": "wx:Point",
+        "cwa": "LOX",
+        "forecastOffice": "https://api.weather.gov/offices/LOX",
+        "gridId": "LOX",
+        "gridX": 154,
+        "gridY": 44,
+        "forecast": "https://api.weather.gov/gridpoints/LOX/154,44/forecast",
+        "forecastHourly": "https://api.weather.gov/gridpoints/LOX/154,44/forecast/hourly",
+        "forecastGridData": "https://api.weather.gov/gridpoints/LOX/154,44",
+        "observationStations": "https://api.weather.gov/gridpoints/LOX/154,44/stations",
+        "relativeLocation": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.210869,
+                    34.001123
+                ]
+            },
+            "properties": {
+                "city": "Vernon",
+                "state": "CA",
+                "distance": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 6435.1328292857997
+                },
+                "bearing": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 331
+                }
+            }
+        },
+        "forecastZone": "https://api.weather.gov/zones/forecast/CAZ365",
+        "county": "https://api.weather.gov/zones/county/CAC037",
+        "fireWeatherZone": "https://api.weather.gov/zones/fire/CAZ365",
+        "timeZone": "America/Los_Angeles",
+        "radarStation": "KSOX"
+    }
+}
+2023-03-03 13:24:43.837 -08:00 [INF] Successful ...  {
+    "@context": [
+        "https://geojson.org/geojson-ld/geojson-context.jsonld",
+        {
+            "@version": "1.1",
+            "wx": "https://api.weather.gov/ontology#",
+            "s": "https://schema.org/",
+            "geo": "http://www.opengis.net/ont/geosparql#",
+            "unit": "http://codes.wmo.int/common/unit/",
+            "@vocab": "https://api.weather.gov/ontology#",
+            "geometry": {
+                "@id": "s:GeoCoordinates",
+                "@type": "geo:wktLiteral"
+            },
+            "city": "s:addressLocality",
+            "state": "s:addressRegion",
+            "distance": {
+                "@id": "s:Distance",
+                "@type": "s:QuantitativeValue"
+            },
+            "bearing": {
+                "@type": "s:QuantitativeValue"
+            },
+            "value": {
+                "@id": "s:value"
+            },
+            "unitCode": {
+                "@id": "s:unitCode",
+                "@type": "@id"
+            },
+            "forecastOffice": {
+                "@type": "@id"
+            },
+            "forecastGridData": {
+                "@type": "@id"
+            },
+            "publicZone": {
+                "@type": "@id"
+            },
+            "county": {
+                "@type": "@id"
+            }
+        }
+    ],
+    "id": "https://api.weather.gov/points/34.0522,-118.2437",
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -118.2437,
+            34.052199999999999
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/points/34.0522,-118.2437",
+        "@type": "wx:Point",
+        "cwa": "LOX",
+        "forecastOffice": "https://api.weather.gov/offices/LOX",
+        "gridId": "LOX",
+        "gridX": 154,
+        "gridY": 44,
+        "forecast": "https://api.weather.gov/gridpoints/LOX/154,44/forecast",
+        "forecastHourly": "https://api.weather.gov/gridpoints/LOX/154,44/forecast/hourly",
+        "forecastGridData": "https://api.weather.gov/gridpoints/LOX/154,44",
+        "observationStations": "https://api.weather.gov/gridpoints/LOX/154,44/stations",
+        "relativeLocation": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.210869,
+                    34.001123
+                ]
+            },
+            "properties": {
+                "city": "Vernon",
+                "state": "CA",
+                "distance": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 6435.1328292857997
+                },
+                "bearing": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 331
+                }
+            }
+        },
+        "forecastZone": "https://api.weather.gov/zones/forecast/CAZ365",
+        "county": "https://api.weather.gov/zones/county/CAC037",
+        "fireWeatherZone": "https://api.weather.gov/zones/fire/CAZ365",
+        "timeZone": "America/Los_Angeles",
+        "radarStation": "KSOX"
+    }
+}
+2023-03-03 13:24:57.421 -08:00 [ERR]    at WeatherWorld.Controllers.HomeController.WeatherAPI() in /Users/srohatgi/Projects/WeatherWorld/WeatherWorld/Controllers/HomeController.cs:line 60Attempted to divide by zero.

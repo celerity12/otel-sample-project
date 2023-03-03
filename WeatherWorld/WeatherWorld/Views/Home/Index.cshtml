@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page Weather World";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://www.weather.gov/">National Weather Service</a>.</p>
+</div>
+<form asp-controller="Home" method="post">
+
+    <input type="submit" value="fetch weather" formaction="/Home/WeatherAPI" /> &nbsp;&nbsp;&nbsp;
+</form>
+</br>
+</br>
+<h2 style="color:crimson; background-color:darksalmon; padding:10px;">
+    @ViewBag.Result
+</h2>

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Views\Cal\" />
+    <None Remove="Serilog" />
+    <None Remove="Serilog.Sinks.File" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Cal\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Views\Cal\Cal.cshtml" />
+  </ItemGroup>
+</Project>

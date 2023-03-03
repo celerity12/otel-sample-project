@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Calculator Weather World";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Temperature conversion assist C/5=(F-32)/9.</p>
+
+<form asp-controller="MyCal" method="post">
+    Enter 1st Number : <input name="Text1" type="text" /> <br /><br />
+    Enter 2nd Number : <input name="Text2" type="text" /> <br /><br />
+
+    <input type="submit" value="+" formaction="Add" /> &nbsp;&nbsp;&nbsp;
+    <input type="submit" value="-" formaction="Minus" /> &nbsp;&nbsp;&nbsp;
+    <input type="submit" value="x" formaction="Multiply" /> &nbsp;&nbsp;&nbsp;
+    <input type="submit" value="/" formaction="Divide" /> &nbsp;&nbsp;&nbsp;
+</form>
+</br>
+</br>
+<h2 style="color:crimson; background-color:darksalmon; padding:10px;">
+    @ViewBag.Result
+</h2>
