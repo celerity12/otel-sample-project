@@ -9,41 +9,41 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WeatherWorld
 build_property.RootNamespace = WeatherWorld
-build_property.ProjectDir = /Users/srohatgi/Projects/WeatherWorld/WeatherWorld/
+build_property.ProjectDir = /Users/manuelgarcia/Projects/otel-sample-project/WeatherWorld/WeatherWorld/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/srohatgi/Projects/WeatherWorld/WeatherWorld
+build_property.MSBuildProjectDirectory = /Users/manuelgarcia/Projects/otel-sample-project/WeatherWorld/WeatherWorld
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/srohatgi/Projects/WeatherWorld/WeatherWorld/Views/Home/Index.cshtml]
+[/Users/manuelgarcia/Projects/otel-sample-project/WeatherWorld/WeatherWorld/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/srohatgi/Projects/WeatherWorld/WeatherWorld/Views/Home/Privacy.cshtml]
+[/Users/manuelgarcia/Projects/otel-sample-project/WeatherWorld/WeatherWorld/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/srohatgi/Projects/WeatherWorld/WeatherWorld/Views/Shared/Cal.cshtml]
+[/Users/manuelgarcia/Projects/otel-sample-project/WeatherWorld/WeatherWorld/Views/Shared/Cal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/srohatgi/Projects/WeatherWorld/WeatherWorld/Views/Shared/Error.cshtml]
+[/Users/manuelgarcia/Projects/otel-sample-project/WeatherWorld/WeatherWorld/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/srohatgi/Projects/WeatherWorld/WeatherWorld/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/manuelgarcia/Projects/otel-sample-project/WeatherWorld/WeatherWorld/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/srohatgi/Projects/WeatherWorld/WeatherWorld/Views/_ViewImports.cshtml]
+[/Users/manuelgarcia/Projects/otel-sample-project/WeatherWorld/WeatherWorld/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/srohatgi/Projects/WeatherWorld/WeatherWorld/Views/_ViewStart.cshtml]
+[/Users/manuelgarcia/Projects/otel-sample-project/WeatherWorld/WeatherWorld/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/srohatgi/Projects/WeatherWorld/WeatherWorld/Views/Shared/_Layout.cshtml]
+[/Users/manuelgarcia/Projects/otel-sample-project/WeatherWorld/WeatherWorld/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-gzycv391lm
